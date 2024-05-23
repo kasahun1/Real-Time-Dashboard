@@ -1,7 +1,7 @@
 import React from "react";
 
 const DealsChart = () => {
-  return <div>DealsChart</div>;
+  return <div>DealChart</div>;
 };
 
 export default DealsChart;
