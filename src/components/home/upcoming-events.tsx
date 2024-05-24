@@ -2,7 +2,6 @@ import { CalendarOutlined } from "@ant-design/icons";
 import { Card, List } from "antd";
 import React, { useState } from "react";
 import { Text } from "../text";
-import { ListButton } from "@refinedev/antd";
 
 const UpcomingEvents = () => {
     const [isLoading, setIsLoading] = useState(true)
