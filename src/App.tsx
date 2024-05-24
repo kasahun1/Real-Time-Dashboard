@@ -16,6 +16,7 @@ import { App as AntdApp } from "antd";
 import { BrowserRouter, Outlet, Route, Routes } from "react-router-dom";
 import Layout from "./components/layout";
 import { resources } from "./config/resources";
+import CompanyList from "./pages/company/list";
 
 function App() {
   return (
@@ -51,6 +52,7 @@ function App() {
                   </Layout>
                   </Authenticated> } >
                   <Route index element={<Home />} />
+                  <Route path="/companies" element={<CompanyList />} />
                   </Route> 
                 </Routes>
                 <RefineKbar />
