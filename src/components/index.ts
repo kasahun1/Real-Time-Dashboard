@@ -6,6 +6,7 @@ import LatestActivitiesSkeleton from "./skeleton/latest-activities";
 import ProjectCardSkeleton from "./skeleton/project-card";
 import UpcomingEventsSkeleton from "./skeleton/upcoming-events";
 import DashboardLatestActivities from "./home/DashboardLatestActivities"
+import SelectOptionWithAvatar from "./SelectOptionWithAvatar";
 
 
-export {UpcomingEvents, DealsChart, AccordionHeaderSkeleton, KanbanColumnSkeleton, LatestActivitiesSkeleton, ProjectCardSkeleton, UpcomingEventsSkeleton, DashboardLatestActivities}
+export {UpcomingEvents, DealsChart, AccordionHeaderSkeleton, KanbanColumnSkeleton, LatestActivitiesSkeleton, ProjectCardSkeleton, UpcomingEventsSkeleton, DashboardLatestActivities, SelectOptionWithAvatar}
