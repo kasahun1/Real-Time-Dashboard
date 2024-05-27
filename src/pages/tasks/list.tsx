@@ -178,7 +178,7 @@ export const TasksListPage = ({ children }: React.PropsWithChildren) => {
                       </KanbanItem>
                     );
                   })}
-                {!column.tasks.length && (
+                {/* {!column.tasks.length && (
                   <KanbanAddCardButton
                     onClick={() =>
                       handleAddCard({
@@ -186,7 +186,7 @@ export const TasksListPage = ({ children }: React.PropsWithChildren) => {
                       })
                     }
                   />
-                )}
+                )} */}
               </KanbanColumn>
             );
           })}
